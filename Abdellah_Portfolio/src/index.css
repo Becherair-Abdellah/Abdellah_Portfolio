@@ -16,3 +16,21 @@ body{
 .mbg{
     background: url("../public/splash.png");
 }
+.ro-b{
+    left: calc(45% - 12px);
+}
+.slick-slide {
+    @apply px-5 py-8 !important;
+}
+.slick-slide > div{
+    @apply bg-white text-center p-5 shadow-lg shadow-gray-300 rounded-xl  relative !important;
+}
+.slick-slider{
+    @apply lg:py-[0] lg:px-3
+}
+.slick-active button::before{
+    @apply text-orange-400 !important
+}
+.hvr li:hover{
+    @apply text-green-500 duration-300 cursor-pointer !important;
+}
